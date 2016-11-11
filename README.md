@@ -31,7 +31,7 @@ Or by using a docker-compose entry:
 version: '2'
 services:
     tools:
-        image: graze/golang-tools:tip
+        image: graze/golang-tools
         volumes:
             - .:/go/src/github.com/graze/app
         working_dir: /go/src/github.com/graze/app

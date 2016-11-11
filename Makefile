@@ -14,3 +14,13 @@ all: ## Build all the versions of the tools
 	make build ver=tip
 	make build ver=1.7
 	make build ver=1.6
+
+# Build targets
+.SILENT: help
+.PHONY: help
+help: ## Show this help message
+	set -x
+	echo "Usage: make [target] ..."
+	echo ""
+	echo "Available targets:"
+	egrep '^(.+)\:\ ##\ (.+)' ${MAKEFILE_LIST} | column -t -c 2 -s ':#' | sort
