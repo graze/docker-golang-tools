@@ -1,5 +1,7 @@
 # docker-golang-tools
 
+[![](https://images.microbadger.com/badges/image/graze/golang-tools.svg)](https://microbadger.com/images/graze/golang-tools "Get your own image badge on microbadger.com")
+
 :wrench: A set of tools to develop in golang but not required in production.
 
 ## Supported tags and respective `Dockerfile` links
