@@ -12,6 +12,7 @@ endif
 .PHONY: all
 all: ## Build all the versions of the tools
 	make build ver=tip
+	make build ver=1.8
 	make build ver=1.7
 	make build ver=1.6
 
