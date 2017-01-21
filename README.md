@@ -7,6 +7,7 @@
 ## Supported tags and respective `Dockerfile` links
 
 - [`tip`, `latest` (Dockerfile.tip)](Dockerfile.tip)
+- [`1.8` (Dockerfile.1.8)](Dockerfile.1.8)
 - [`1.7` (Dockerfile.1.7)](Dockerfile.1.7)
 - [`1.6` (Dockerfile.1.6)](Dockerfile.1.6)
 
@@ -38,6 +39,8 @@ services:
             - .:/go/src/github.com/graze/app
         working_dir: /go/src/github.com/graze/app
 ```
+
+This can then be called using:
 
 ```bash
 $ docker-compose run --rm tools <command>
