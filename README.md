@@ -37,6 +37,7 @@ services:
         image: graze/golang-tools
         volumes:
             - .:/go/src/github.com/graze/app
+            - ~/.ssh/id_rsa:/root/.ssh/id_rsa:ro
         working_dir: /go/src/github.com/graze/app
 ```
 
