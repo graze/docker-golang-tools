@@ -10,6 +10,8 @@ RUN go get -u \
     github.com/DATA-DOG/godog \
     cmd/gofmt \
     golang.org/x/tools/cmd/goimports \
-    github.com/golang/lint/golint
+    github.com/golang/lint/golint \
+    github.com/vattle/sqlboiler \
+    github.com/rubenv/sql-migrate
 
 RUN mkdir /root/.ssh && echo "StrictHostKeyChecking no " > /root/.ssh/config
