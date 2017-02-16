@@ -15,7 +15,6 @@
 
 - [glide](https://glide.sh): Package management using the `vendor` directory
 - [godoc](https://godoc.org/golang.org/x/tools/cmd/godoc): Documentation
-- [godog](https://github.com/DATA-DOG/godog): Cucumber testing with go
 - [gofmt](https://golang.org/cmd/gofmt/): Auto formatter
 - [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports): Like gofmt, but ensures correct imports
 - [golint](https://github.com/golang/lint): Ensure the provided go code conforms to some standards
